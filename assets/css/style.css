@@ -13,6 +13,7 @@ body{
     text-align: center;
     font-family: 'Sree Krushnadevaraya', serif;
     color: white;
+
 }
 .row{
     margin-left: 10px;
@@ -101,25 +102,37 @@ body{
       }
     }
     @media screen and (max-width:736px){
+        container{
+            width: 100%;
+        }
         .head{
             width: 224px;
            height: 70px;
-           margin-left: 240px;
+           margin-left: 76px;
            margin-top: 10px;
         }
         .p-tag{
-            font-size: 20px;
+            font-size: 15px;
             text-align: center;
         }
         #disCompGuees{
             width: 50%;
-            margin-left: 217px;
+            margin-left: 131px;
             font-size: 65px;
             
         }
+        .size{
+            width: 80px;
+            height: 100px; 
+            margin-right: 5px;
+              }
+              .col-xs-4 {
+                width: 33.33333333%;
+                margin-right: -42px;
+            }
         #disWinLose{
-            width: 18%;
-            margin-left: 142px;
+            width: 30%;
+            margin-left: 71px;
             
         }
         .win,
