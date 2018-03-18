@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Peddana|Sree+Krushnadevaraya" rel="stylesheet">
+        <title>Card Collector</title>
+</head>
+
+<body>
+    <div >
+        <img class="head" src="assets/images/coollogo_com-918771.png" alt="Card Collertor">
+    </div>
+    <div class="p-tag">
+        <p>You will be given a random number at the start of the game.
+        There are four cards below. By clicking on a card you will add a specific amount of points to your total score. 
+        You win the game by matching your total score to random number, you lose the game if your total score goes above
+            the random number.
+        The value of each cards is hidden from you until you click on it.
+        Each time when game starts, the game will change the value of each card.</p>
+    </div>
+    <section class="row">
+        <div class="col-md-3"></div>
+        <div id="disCompGuees" class="col-md-3">
+            <h2></h2>
+        </div>
+        <div id="disWinLose" class="col-md-3">
+            <h3 class="win"><strong></strong></h3>
+            <h3 class="losses"><strong></strong></h3>
+        </div>
+    </section>
+    <div id="images">
+        <img class="btn-img-1 size" src="assets/images/card_heart_A.svg.png" alt="Card Heart">
+        <img class="btn-img-2 size" src="assets/images/card_club_A.svg.png" alt="Card Club">
+        <img class="btn-img-3 size" src="assets/images/card_diamond_A.svg.png" alt="Card Diamond">
+        <img class="btn-img-4 size" src="assets/images/card_spade_A.svg.png" alt="Card Spade">
+    </div>
+    <div>
+        <div>
+            <h2>Your score is:</h2>
+        </div>
+        <div >
+            <h1 id="yourScore">0</h1>
+        </div>
+    </div>
+
+ <script rel="text/script" src="assets/javascript/game.js">
+ 
+ </script>
+</body>
+
+</html>
