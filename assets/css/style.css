@@ -94,7 +94,7 @@ body{
             font-size: 20px;
         }
       h2{
-          margin-left: 110px;
+          margin-left: 120px;
       }
       #yourScore{
         margin-left: 108px;
@@ -135,26 +135,26 @@ body{
             margin-left: 100px;
         }
   }
-  @media screen and (max-width:640px){
+  @media screen and (max-width:412px){
     .head{
-        width: 224px;
-       height: 70px;
-       margin-left: 173px;
-       margin-top: 10px;
+     width: 224px;
+    height: 70px;
+    margin-left: 70px;
+    margin-top: 10px;
     }
     .p-tag{
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     #disCompGuees{
         width: 50%;
-        margin-left: 174px;
+        margin-left: 125px;
         font-size: 65px;
         
     }
     #disWinLose{
-        width: 20%;
-        margin-left: 98px;
+        width: 30%;
+        margin-left: 56px;
         
     }
     .win,
@@ -162,8 +162,8 @@ body{
         font-size: 20px;
     }
     h2{
-        margin-left: 100px;
-        margin-top: 4px;
+        margin-left: 98px;
+        margin-top: 10px;
         margin-bottom: 10px;
         
     }
@@ -171,6 +171,15 @@ body{
         font-size: 65px;
         margin-left: 71px;
         margin-top: -17px;
+    }
+    .col-xs-4 {
+        width: 33.33333333%;
+        margin-right: -42px;
+    }
+    .size{
+        width: 80px;
+        height: 100px; 
+        margin-right: 5px;
     }
 }
   
