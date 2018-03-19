@@ -1,1 +1,12 @@
 # week-4-game
+                       Card Collector Game!!!
+
+                            Instruction.
+
+* You will be given a random number at the start of the game. There are four cards below. 
+
+* By clicking on a card you will add a specific amount of points to your total score. 
+
+* You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+
+* The value of each cards is hidden from you until you click on it. Each time when game starts, the game will change the value of each card.
