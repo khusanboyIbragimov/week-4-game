@@ -114,6 +114,7 @@ body{
         .p-tag{
             font-size: 17px;
             text-align: center;
+            margin-bottom: -16px;
         }
         #disCompGuees{
             width: 50%;
@@ -158,6 +159,7 @@ body{
     .p-tag{
         font-size: 16px;
         text-align: center;
+        margin-bottom: -16px;
     }
     #disCompGuees{
         width: 50%;

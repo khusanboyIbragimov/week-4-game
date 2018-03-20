@@ -7,8 +7,8 @@ $(document).ready(function () {
     var counter = 0;
     var win = 0;
     var losses = 0;
-    $(".losses").html("Losses: " + losses++);
-    $(".win").html("Wins: " + win++);
+    $(".losses").html("Losses: " + losses);
+    $(".win").html("Wins: " + win);
 
     $("#disCompGuees").html(copmGuess);
 
@@ -37,12 +37,15 @@ $(document).ready(function () {
     });
     function checkCondition() {
         if (counter === copmGuess) {
-            $(".win").html("Wins: " + win++);
+            $(".win").html("Wins: " + ++win);
             reset();
-        } if (counter > copmGuess) {
-            $(".losses").html("Losses: " + losses++);
+        }
+
+        if (counter > copmGuess) {
+            $(".losses").html("Losses: " + ++losses);
             reset();
         };
+
     };
     function reset() {
         copmGuess = (Math.floor(Math.random() * 102) + 19);
@@ -51,6 +54,7 @@ $(document).ready(function () {
         randNum3 = (Math.floor(Math.random() * 12) + 1);
         randNum4 = (Math.floor(Math.random() * 12) + 1);
         counter = 0;
+
         $("#disCompGuees").html(copmGuess);
         $("#yourScore").html(counter);
     }
